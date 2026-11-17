@@ -28,7 +28,7 @@
     "extensions": [
       "./index.ts"
     ],
-    "image": "https://raw.githubusercontent.com/shortdiv/pi-agent-hopper/main/docs/preview.png"
+    "image": "https://raw.githubusercontent.com/shortdiv/pi-agent-hopper/main/images/preview.png"
   },
   "scripts": {
     "check": "tsc --noEmit --strict --skipLibCheck --module nodenext --moduleResolution nodenext --target es2023 --allowImportingTsExtensions index.ts"
