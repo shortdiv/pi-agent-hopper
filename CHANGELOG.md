@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.1] - 2026-11-17
+
+- README screenshots now ship in the package and load from jsDelivr, so they show on npm.
+
 ## [0.1.0] - 2026-11-17
 
 First release.

@@ -1,6 +1,6 @@
 # pi-agent-hopper
 
-![Pi's status line in five folders: a personal profile, three client profiles, and a blocked folder](images/preview.png)
+![Pi's status line in five folders: a personal profile, three client profiles, and a blocked folder](https://cdn.jsdelivr.net/npm/@shortdiv/pi-agent-hopper/images/preview.png)
 
 Keep work and personal AI logins apart in [Pi](https://pi.dev). Each project folder maps to a **profile** so you never have to worry about mixing subscriptions. `/hop` switches profiles by hand, overriding the default settings.
 
@@ -37,23 +37,23 @@ Then start Pi in each client folder and run `/hop` → **Sign "<profile>" into a
 
 ### `/hop`
 
-![The /hop menu for the personal profile: its logins, then Switch profile, sign into or out of a provider, and Change color](images/hop.png)
+![The /hop menu for the personal profile: its logins, then Switch profile, sign into or out of a provider, and Change color](https://cdn.jsdelivr.net/npm/@shortdiv/pi-agent-hopper/images/hop.png)
 
 - **Switch profile** changes the profile for this session only. You can choose a saved profile, Pi's own login, or a new profile. Resuming or `/reload`ing keeps the choice, and forks and `/new` start from the folder mapping again.
 
-  ![The Switch profile picker: acme, globex, personal (Pi's /login) and New profile](images/switch-profile.png)
+  ![The Switch profile picker: acme, globex, personal (Pi's /login) and New profile](https://cdn.jsdelivr.net/npm/@shortdiv/pi-agent-hopper/images/switch-profile.png)
 
 - **Back to folder mapping** appears after a switch, when the badge shows `(switched)`. It undoes the switch.
 
-  ![/hop after switching to the personal profile for this session, with Back to folder mapping selected](images/hop-switched.png)
+  ![/hop after switching to the personal profile for this session, with Back to folder mapping selected](https://cdn.jsdelivr.net/npm/@shortdiv/pi-agent-hopper/images/hop-switched.png)
 
 - **Sign into a provider / Sign out of a provider** adds or removes one login for the profile: a subscription or an API key, or for Bedrock a bearer token or an AWS profile. Keys are typed into a masked prompt and checked with the provider before they're saved. For your `piLogin` profile, `/hop` fills in Pi's `/login` or `/logout` for you.
 
-  ![The /hop menu with Sign "personal" into a provider selected](images/signin.png)
+  ![The /hop menu with Sign "personal" into a provider selected](https://cdn.jsdelivr.net/npm/@shortdiv/pi-agent-hopper/images/signin.png)
 
 - **Change "[profile]" color** picks the badge color, with a live preview of each option. You can also enter your own hex value, or several for a gradient.
 
-  ![The color picker: Automatic, then Amber, Gold, Lime, Green, Teal, Purple, Pink, Brown and Slate, each with a preview badge](images/color.png)
+  ![The color picker: Automatic, then Amber, Gold, Lime, Green, Teal, Purple, Pink, Brown and Slate, each with a preview badge](https://cdn.jsdelivr.net/npm/@shortdiv/pi-agent-hopper/images/color.png)
 
 ## Security
 
