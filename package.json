@@ -1,0 +1,48 @@
+{
+  "name": "@shortdiv/pi-agent-hopper",
+  "version": "0.1.0",
+  "description": "Pi extension: map project folders to login profiles so client and personal AI credentials never mix.",
+  "license": "MIT",
+  "author": "Divya (https://github.com/shortdiv)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortdiv/pi-agent-hopper.git"
+  },
+  "homepage": "https://github.com/shortdiv/pi-agent-hopper#readme",
+  "bugs": "https://github.com/shortdiv/pi-agent-hopper/issues",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "credentials",
+    "profiles"
+  ],
+  "files": [
+    "index.ts",
+    "store.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "image": "https://raw.githubusercontent.com/shortdiv/pi-agent-hopper/main/docs/preview.png"
+  },
+  "scripts": {
+    "check": "tsc --noEmit --strict --skipLibCheck --module nodenext --moduleResolution nodenext --target es2023 --allowImportingTsExtensions index.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": ">=1.5.2 <2",
+    "@earendil-works/pi-coding-agent": ">=1.5.2 <2",
+    "@earendil-works/pi-tui": ">=1.5.2 <2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}
